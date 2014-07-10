@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Home Sweet</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="jquery/main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div id="clock">
+            <form name="clock" method="get">
+                <input type="text" name="time" size="8">
+            </form>
+        </div>
+        <div class="photoShow" id="bird">
+            <div class="current">
+                <a href="">
+                    <img src="img/Adium-Bird-Awake-icon.png" alt=""></a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="img/Adium-Bird-Idle-icon.png" alt=""></a></div>
+            <div>
+                <a href="">
+                    <img src="img/Adium-Bird-Invisible-icon.png" alt=""></a></div>
+            <div>
+                <a href="">
+                    <img src="img/Adium-Bird-Connecting-icon.png" alt=""></a></div>
+        </div>
+
+        <ul class="menu">
+            <li id="home"><a>Home</a></li>
+            <li id="order"><a>Order</a></li>
+            <li id="new"><a>News</a></li>
+            <li id="member"><a>Member</a></li>
+
+
+        </ul>
+
+    </div>
+    <!-- End header-->
+    <div class="content">
+        <div class="left">
+            <div class="menu-left">
+                <h4 class="title" id="vn"><a>Món ăn Việt</a></h4>
+                <ul class="menu-list">
+                    <li id="b"><a>Món ăn miền Băc</a></li>
+                    <li id="n"><a>Món ăn miền Nam</a></li>
+                    <li id="t"><a>Món ăn miền Trung</a></li>
+
+
+                </ul>
+                <img class="img-rounded box4" src="img/n10.jpeg" alt="" width="200" height="100"></a>
+
+
+                <h4 class="title"><a>Món ăn nước ngoài</a></h4>
+                <ul class="menu-list">
+                    <li id="hq"><a>Món ăn Hàn Quốc</a></li>
+                    <li id="tq"><a>Món ăn Trung Quốc</a></li>
+
+                </ul>
+                <h4 class="title"><a>Thông tin giao hàng</a></h4>
+                <ul class="menu-list">
+                    <li class=""><a>Phương thức đặt hàng</a></li>
+                    <li class=""><a>Liên hệ</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+        <!--End left-->
+        <div class="home">
+            <div class="food-title"><h5>Món ăn : &nbsp;<h5 id="food-title"></h5></h5></div>
+
+
+            <div class="right">
+                <div class="product demo-3" >
+                    <div class="photoShow1">
+                        <div class="current1 demo-2">
+                            <a href="#">
+                                <img class="img-rounded box13" src="img/banner2.jpg" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img class="img-rounded box13" src="img/banner3.jpeg" alt=""></a></div>
+                        <div>
+                            <a href="">
+                                <img class="img-rounded box13" src="img/banner1.jpg" alt=""></a></div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="photo4 demo-3">
+                    <h4>Món ăn miền Bắc</h4>
+                    <div class="border1"></div>
+                    <div class="imgContent demo-2" >
+                        <a>
+                            <img class="box13" src="img/n7.jpeg">
+                            <p>Gia : 120.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n4.jpeg">
+                            <p>Gia : 100.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n5.jpeg">
+                            <p>Gia : 130.000 VND</p>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="photo1 demo-3">
+                    <div class="imgContent1 demo-2" >
+                        <a>
+                            <img class="box13" src="img/n12.jpeg">
+                            <p>Gia : 120.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n13.jpeg">
+                            <p>Gia : 100.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n14.jpeg">
+                            <p>Gia : 130.000 VND</p>
+                        </a>
+
+
+                    </div>
+                </div>
+                <div class="hidden-show">
+                    <button id="hidden1" class="btn btn-success">Ẩn</button>
+                    <button id="show1" class="btn btn-info">Thêm món</button>
+                </div>
+
+
+
+                <div class="photo4 demo-3">
+                    <h4>Món ăn miền Nam</h4>
+                    <div class="border1"></div>
+                    <div class="imgContent demo-2"  >
+                        <a>
+                            <img class="box13" src="img/n2.jpeg">
+                            <p>Gia : 120.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n6.jpeg">
+                            <p>Gia : 100.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n8.jpeg">
+                            <p>Gia : 130.000 VND</p>
+                        </a>
+
+
+                    </div>
+
+                </div>
+                <div class="photo2 demo-3">
+                    <div class="imgContent2 demo-2" >
+                        <a>
+                            <img class="box13" src="img/n15.jpeg">
+                            <p>Gia : 120.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n16.jpg">
+                            <p>Gia : 100.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n17.jpg">
+                            <p>Gia : 130.000 VND</p>
+                        </a>
+
+
+                    </div>
+                </div>
+                <div class="hidden-show">
+                    <button id="hidden2" class="btn btn-success">Ẩn</button>
+                    <button id="show2" class="btn btn-info">Thêm món</button>
+                </div>
+
+                <div class="photo4 demo-3">
+                    <h4>Món ăn miền Trung</h4>
+                    <div class="border1"></div>
+                    <div class="imgContent demo-4" >
+                        <a>
+                            <img class="box13" src="img/n9.jpeg">
+                            <p>Gia : 120.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n10.jpeg">
+                            <p>Gia : 100.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n11.jpeg">
+                            <p>Gia : 130.000 VND</p>
+                        </a>
+
+
+                    </div>
+
+                </div>
+                <div class="photo3 demo-3">
+                    <div class="imgContent3 demo-2" >
+                        <a>
+                            <img class="box13" src="img/n18.jpg">
+                            <p>Gia : 120.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n19.jpg">
+                            <p>Gia : 100.000 VND</p>
+                        </a>
+                        <a>
+                            <img class="box13" src="img/n20.jpg">
+                            <p>Gia : 130.000 VND</p>
+                        </a>
+
+
+                    </div>
+                </div>
+                <div class="hidden-show">
+                    <button id="hidden3" class="btn btn-success">Ẩn</button>
+                    <button id="show3" class="btn btn-info">Thêm món</button>
+                </div>
+            </div>
+            <!--End right-->
+
+        </div>
+        <!--END HOME-->
+        <div class="order">
+
+        </div>
+        <!--END ORDER-->
+        <div class="new">
+            <div class="good-food">
+                <img class="box9" src="img/new1.png" width="200px" height="100px">
+                <h4><b>Cách nấu các món chè ngon từ đậu</b></h4>
+                <p>Các nấu các món chè ngon từ đậu khá đơn giản, mùi thơm giản dị của đậu đỗ xanh hay hương vị béo bùi của đậu phụng đều khiến bạn phải phát thèm, chắc hẳn các món chè này khiến bạn không bao giờ thất vọng. </p>
+                <div class="hidden-show">
+                    <button id="hidden4" class="btn btn-success">Ẩn</button>
+                    <button id="show4" class="btn btn-info">Xem tiếp</button>
+                </div>
+                <div class="continue">
+                <p>Cách nấu các món chè ngon từ đậu phụng và đậu xanh.</br>
+Từng hạt đậu chín mềm cộng với mùi thơm của nước cốt dừa chính là món chè đậu phộng ngon lạ.</br>
+Nguyên liệu:</br>
+- Đậu phộng 360gr</br>
+- Nước 2 lít</br>
+- Đường 60ml</br>
+- Nước cốt dừa 60ml</br>
+Cách làm:</br>
+Bước 1: Nếu bạn dự định ngày mai nấu món chè ngon lạ này thì đêm hôm đó bạn hãy ngâm đậu phộng cho mềm,</br>
+                    tới sáng thì bóc lớp lụa bên ngoài ra để ráo nước.</br>
+               <img src="img/new12.jpg" width="300px" height="250px"></br>
+           Bước 2: Đổ 2 lít nước vào nồi, cho đậu phộng vào.</br>
+                <img src="img/new13.jpg" width="300px" height="250px"></br>
+           Bước 3: Bắt nồi lên bếp đun lửa to khoảng 15 phút, rồi đun lửa nhỏ thêm khoảng 45  phút nữa,
+                    sau đó để chè nguội rồi cho đường vào cho vừa ăn.</br>
+                 <img src="img/new14.jpg" width="300px" height="250px"></br>
+                 <img src="img/new15.jpg" width="300px" height="250px"></br>
+           Bước 4: Sau cùng bạn bắt nồi lên bếp một lần nữa, cho nước dừa vào đun sôi nữa là xong.</br>
+                  <img src="img/new16.jpg" width="300px" height="250px"></br>
+                  <img src="img/new22.jpg" width="300px" height="400px"></br>
+Chè đậu xanh với mùi thơm của dứa và hương vị đặc trưng của đậu xanh</br>
+Nguyên liệu:</br>
+- Đậu xanh đã cà vỏ 200g</br>
+- Đường phèn</br>
+- Nước cốt dừa</br>
+- Canh bột sắn dây, vừng rang, dừa nạo, lá dứa</br>
+Cách làm:</br>
+           Bước 1: Đầu tiên bạn đem đậu xanh đãi sạch xong để ráo, lá dứa rửa sạch.</br>
+                 <img src="img/new17.jpg" width="250px" height="200px"></br>
+           Bước 2: Sau đó bạn cho đậu xanh vào nước đun cho đến khi nào mềm thì cho đường, lá dứa vào đun chung.</br>
+                  <img src="img/new18.jpg" width="250px" height="200px"></br>
+           Bước 3: Bạn hòa bột sắn vào nước lạnh rồi cho vào nổi khuấy đều lun,
+                    xong cho nước cốt vào khuấy đều khoảng 1 phút rồi tắt bếp.</br>
+                  <img src="img/new19.jpg" width="250px" height="200px"></br>
+                  <img src="img/new20.jpg" width="250px" height="300px"></br>
+Chỉ tốn một ít thời gian, bạn đã có một món chè ngon và đã khát rồi.
+Cách nấu các món chè ngon từ đậu luôn đem lại cảm giác lạ miệng cho những ai ăn nó, hãy thử nhé.</br>
+
+                    </p>
+
+                </div>
+
+
+
+                </div>
+
+
+
+        </div>
+        <!--END NEW-->
+        <div class="member"></div>
+        <!--END MEMBER-->
+
+    </div>
+</div>
+    <!-- End content-->
+<div class="footer">
+    <div id="marquee">
+        <marquee behavior="scroll" direction="left" scrollamount="5"><p class="marquee"> Never frown, even when you
+            are sad, because you never know who is falling in love with your smile.</p></marquee>
+
+    </div>
+    <ul class="footer-uli">
+
+        <li class="">Địa chỉ: Số 7 - Tạ Quang Bửu</li>
+        <li class="">ĐT : 01649091989</li>
+        <li class=""><a href="mailto:#"> hongnhung@elasticprovision.com</a></li>
+        <li class="">Online 24/7</li>
+
+    </ul>
+    <button id="hidden5" class="btn btn-success none">Ẩn</button>
+
+</div>
+<!-- End footer-->
+
+</div>
+
+</body>
+</html>
